@@ -6,6 +6,8 @@ body {
 p{
     filter: opacity(70%);
 }
+
+
 .title{
     font-weight: bold;
     font-size: 18px;
@@ -38,6 +40,14 @@ p{
 
 #app-section button {
     margin: 8px;
+}
+
+#sign-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: 
+    linear-gradient(to left, #00000085, #000000),
+    url('/assets/img/banner.jpg');
 }
 
 #about-section{
