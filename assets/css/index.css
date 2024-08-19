@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    background-color: black;
+}
+
+p{
+    filter: opacity(70%);
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.subtitle{
+    font-size: 16px;
+    color: gainsboro;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, black, #0000008a, #00000020);
+    z-index: 1;
+}
+
+#app-section {
+    background-image: 
+    linear-gradient(to bottom, #00000042, #000000),
+    url('/assets/img/banner.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 140px;
+    padding-bottom: 80px;
+    position: relative;
+    top: -66px;
+
+}
+
+#app-section button {
+    margin: 8px;
+}
+
+#about-section{
+    background-image: 
+    linear-gradient(to left, #000000c2, #000000),
+    url('../assets/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background: #000000;
+}
+
+#tutorial-section{
+    margin-top: 10px;
+}
+
+#tutorial-section .card{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+#tutorial-section .card-img-top{
+    width: 100%;
+    height: auto;
+}
+
